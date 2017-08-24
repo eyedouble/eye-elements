@@ -1,0 +1,18 @@
+
+
+
+
+	<data-table-header>
+        <md-checkbox (click)="selectAll()"></md-checkbox>
+		<data-table-cell *ngFor="let header of headers">{{ header }}</data-table-cell>
+
+	</data-table-header>
+
+	<data-table-entry *ngFor="let entry of data;let i = index;">
+
+        <md-checkbox [checked]="entry.selected" (change)="select( i )"></md-checkbox>
+
+        <ng-template ngFor let-header [ngForOf]="headers">
+    		<data-table-cell>{{ entry[header] }}</data-table-cell>
+        </ng-template>
+	</data-table-entry>

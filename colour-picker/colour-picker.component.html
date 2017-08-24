@@ -1,0 +1,19 @@
+<ng-template ngFor let-swatch [ngForOf]="swatches">
+
+
+   	<ng-template ngFor let-colour [ngForOf]="colours[ swatch ]">
+
+   		<div 
+   			*ngIf="colour.name == '500'" 
+   			(click)="pick( colour.hex )" 
+   			[ngClass]="{'colour': true, 'is-chosen': colour.hex == value }"   			
+   			[style.background]="colour.hex" 
+   			>
+
+   			<!-- {{ swatch }} -->
+   			   			
+   		</div>
+
+	</ng-template>
+
+</ng-template>
