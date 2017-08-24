@@ -11,7 +11,10 @@ import { DataTableComponent } from './data-table/data-table.component';
     CommonModule,
     MdCheckboxModule
   ],
-  declarations: [DataTableComponent],
+  declarations: [
+    ColourPickerComponent,
+    DataTableComponent
+  ],
   exports: [
   	ColourPickerComponent,
   	DataTableComponent

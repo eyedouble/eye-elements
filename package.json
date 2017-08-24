@@ -1,6 +1,6 @@
 {
   "name": "@eyedouble/eye-elements",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Custom elements library for Angular4",
   "main": "eye-elements.module.ts",
   "scripts": {    
