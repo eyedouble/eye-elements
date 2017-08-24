@@ -1,0 +1,37 @@
+{
+  "name": "eye-elements",
+  "version": "0.0.1",
+  "description": "Custom elements library for Angular4",
+  "main": "eye-elements.module.ts",
+  "scripts": {    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyedouble/eye-elements.git"
+  },
+  "keywords": [
+    "custom",
+    "elements",
+    "angular",
+    "angular2",
+    "angular4",
+    "webcomponents",
+    "components",
+    "material",
+    "material",
+    "design"
+  ],
+  "author": "eyedouble",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eyedouble/eye-elements/issues"
+  },
+  "homepage": "https://github.com/eyedouble/eye-elements#readme",
+  "dependencies": {
+    "@angular/common": "*",
+    "@angular/core": "*",
+    "@angular/platform-browser": "*",
+    "@angular/material": "*",
+    "rxjs": "5.0.1"    
+  }
+}
