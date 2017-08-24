@@ -11,5 +11,15 @@ Custom elements library for Angular4, often implementing or at least inspired on
 
 `npm install eye-elements`
 
-`import { EyeElementsModule } from 'eye-elements/eye-elements.module';`
+`import { EyeElements } from '@eyedouble/eye-elements';`
+
+Then add `EyeElements` in your module declaration imports.
+
+`@NgModule( {
+  .., 
+  imports: [
+    ..,
+    EyeElementsModule 
+   ]
+ } )`
 

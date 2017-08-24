@@ -18,4 +18,4 @@ import { DataTableComponent } from './data-table/data-table.component';
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
-export class EyeElementsModule { }
+export class EyeElements { }
