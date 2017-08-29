@@ -1,9 +1,9 @@
 {
   "name": "@eyedouble/eye-elements",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Custom elements library for Angular4",
   "main": "eye-elements.module.ts",
-  "scripts": {    
+  "scripts": {
   },
   "repository": {
     "type": "git",
@@ -30,8 +30,9 @@
   "dependencies": {
     "@angular/common": "*",
     "@angular/core": "*",
+    "@angular/forms":"*",
     "@angular/platform-browser": "*",
     "@angular/material": "*",
-    "rxjs": "5.0.1"    
+    "rxjs": "5.0.1"
   }
 }
